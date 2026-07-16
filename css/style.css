@@ -1,0 +1,514 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+
+
+
+.container{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+}
+
+/* =============================================
+            navbar start
+========================================== */
+
+
+    nav img{
+        width:93px;
+    }
+
+
+    nav ul{
+        display: flex;
+        list-style: none;
+        width: 92%;
+        justify-content: end;
+    }
+
+    nav ul li{
+        padding:5px;
+        margin-left: 30px;
+        font-family: inter;
+        color:#FFF;
+    }
+
+    nav{
+        width: 100%;
+        background-color: black;
+        padding:20px 0;
+    }
+
+/* =============================================
+            navbar end
+========================================== */
+
+
+
+
+
+
+/* ===============================================================
+                bannar part start
+================================================== */
+
+
+        .bannar .left{
+            width: 40%;
+            font-family: inter;
+            margin-right: 10%;
+        }
+
+
+        .bannar .left h1{
+            margin-top: 40px;
+            margin-bottom: 20px;
+            line-height: 40px;
+            color:#FFFFFF;
+        }
+
+
+        .bannar .left h1 span{
+            color:#64B496;
+        }
+
+        .bannar .left p{
+            line-height: 25px;
+            color:#B1B1B1;
+        }
+
+        .bannar .left button{
+            padding:6px 12px;
+            margin-top: 30px;
+            background-color: #444;
+            color:#fff;
+            border-radius: 5px;
+            border:none;
+            font-size: 14px;
+        }
+
+        .bannar .right{
+            width:50%;
+            position: relative;
+            padding-top: 50px;
+        }
+
+
+        .bannar .right img{
+            width:90%;
+        }
+
+        .bannar .right .bannar2{
+            width:303px;
+            position: absolute;
+            bottom:-80px;
+            left:-50px;
+            transform: translateX(-40px) translateY(-80px);
+            z-index: 1;
+            animation: bannar2 4.5s infinite ease-in-out;
+        }
+
+        @keyframes bannar2{
+            0%{
+                transform: translateX(-40px);
+            }
+            50%{
+                transform: translateX(-70px);
+            }
+            100%{
+                transform: translateX(-40px);
+            }
+
+
+        }
+
+        .bannar .right .bannar3{
+            width: 404px;
+            position: absolute;
+            bottom:-80px;
+            left:175px;
+            transform: translateX(-30px);
+            z-index: 0;
+            animation: bannar3 4.9s infinite ease-in-out;
+        }
+
+        @keyframes bannar3{
+            0%{
+                transform: translateX(-30px);
+            }
+            50%{
+                transform: translateX(-60px);
+            }
+            100%{
+                transform: translateX(-30px);
+            }
+        }
+
+        .bannar{
+            width: 100%;
+            background-color: black;
+            padding-bottom: 100px;
+        }
+
+
+/* ===============================================================
+                bannar part end
+================================================== */
+
+
+/* ==================================================
+                Marketing part start
+========================================= */
+
+        .marketing h2{
+            font-family: inter;
+            font-size: 30px;
+            color:#EEE;
+            text-align: center;
+            padding-top: 80px;
+        }
+
+        .marketing p{
+            font-family: inter;
+            width: 785px;
+            font-size: 14px;
+            margin: 0 auto;
+            padding:10px 0 0 0;
+            text-align: center;
+            color:#BBB;
+            line-height: 25px;
+        }
+
+        .marketing button{
+            padding:7px 20px;
+            margin:5px;
+            font-size: 16px;
+            color:#FFF;
+            background-color: #64b496;
+            border:none;
+            border-radius: 3px;
+        }
+
+        .marketing .card-button{
+            text-align: center;
+            margin-bottom: 16px;
+            margin-top: 20px;
+        }
+
+
+        .marketing .onnorokom{
+            display: flex;
+            margin: 30px 0 0 0 ;
+        }
+
+        .marketing .onnorokom .first-div{
+            padding:0 15px;
+        }
+
+        .marketing .onnorokom .first-div h5{
+            font-size: 14px;
+            color:#FFF;
+            text-align: center;
+            font-family: inter;
+            margin-top: 15px;
+            font-weight: 400;
+        }
+
+        .marketing{
+            width: 100%;
+            background-color: #17181C;
+            padding-bottom: 80px;
+        }
+
+/* ==================================================
+                Marketing part end
+========================================= */
+
+
+/* ================================================
+            card part start 
+========================================== */
+
+
+        .card h1{
+            font-family: inter;
+            font-size: 30px;
+            color:#BBB;
+            font-weight: 500;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        .card h1 span{
+            color:#64B496;
+        }
+
+        .card p{
+            width: 770px;
+            font-family: inter;
+            font-size: 14px;
+            line-height: 25px;
+            color:#BBB;
+            text-align: center;
+            margin: 0 auto;
+        }
+
+
+        .card-container span{
+           display: inline-block; 
+           margin:30px 0 0 0;
+        }
+
+        .card-container .card1{
+            width:250px;
+            padding:0 10px;
+        }
+
+        .card-container img{
+            width:250px;
+            
+        }
+
+        .card-container .card1 p{
+            width:250px;
+            font-family: inter;
+            font-size: 14px;
+            color:#EEE;
+            text-align: center;
+            font-weight: 600;
+            padding: 8px 0 5px 0;
+        }
+
+        .card{
+            width:100%;
+            background-color: black;
+            padding: 80px 0 40px 0;
+        }
+
+/* ================================================
+            card part end
+========================================== */
+
+
+
+/* ======================================
+        Defrence part start 
+===================================== */
+
+
+        .defrence h1{
+            font-family: inter;
+            font-size: 30px;
+            color:#EEE;
+            font-weight: 500;
+            text-align: center;
+        }
+
+        .defrence h1 span{
+            color:#64B496;
+            margin: 0 0 10px 0;
+        }
+
+        .defrence p {
+            color:#EEE;
+            text-align: center;
+            padding:10px 0 0 0 ;
+        }
+
+        .defrence .option{
+            text-align: center;
+            margin: 50px 0 0 0 ;
+        }
+
+        .defrence button{
+            position: relative;
+            background-color: #64B496;
+            color: #FFF;
+            padding: 10px 25px 10px 15px;
+            margin: 8px;
+            border:1px solid #FFF;
+            border-radius: 2px;
+        }
+
+        .defrence button i{
+            font-size: 15px ;
+            font-weight: 600;
+            position: absolute;
+            bottom:15px;
+            right:7px;
+        }
+
+        .defrence .button{
+            padding:10px 15px;
+            background-color: transparent;
+        }
+
+        .defrence{
+            width: 100%;
+            background-image: url(../image/back.jpeg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            padding:80px 0 50px 0;
+        }
+
+
+/* ======================================
+        Defrence part end
+===================================== */
+
+
+
+/* =====================================================
+            logo part start
+============================================== */
+
+        .logo h1{
+            font-size: 30px;
+            font-family: inter;
+            font-weight: 500;
+            color:#EEE;
+            text-align: center;
+        }
+
+        .logo h1 .span{
+            color:#64B496;
+            width:auto;
+            margin:auto;
+            border:none;
+            border-radius: 0px;
+            background-color: transparent;
+            box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+        }
+
+        .logo p{
+            font-family: inter;
+            font-size: 14px;
+            color:#EEE;
+            text-align: center;
+            width: 770px;
+            margin:0 auto;
+            padding:15px 0 0 0;
+            line-height: 30px;
+        }
+
+
+        .logo .span-card{
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .logo span {
+            width:160px;
+            display: inline-block;
+            margin:15px 8px;
+            
+        }
+
+        .logo span img{
+            width:160px;
+            border: 1px solid rgb(41, 42, 47);
+            border-radius: 10px;
+            background-color: rgb(23, 24, 28);
+            box-shadow: 0 0 25px rgb(0, 0, 0, 0.1);
+        }
+
+        .logo span p{
+            width:160px;
+            padding: 10px 0 10px 0;
+            color:#777;
+            
+        }
+
+        .logo{
+            width:100%;
+            padding:80px 0 60px 0;
+            background-color: #111215;
+        }
+
+/* =====================================================
+            logo part end
+============================================== */
+
+
+
+
+/* ===============================================
+            footer part start
+=========================================== */
+
+
+        .footer h1{
+            font-family: inter;
+            font-size: 30px;
+            font-weight: 500;
+            color:#EEE;
+            width:50%;
+            margin:20px auto;
+            text-align: center;
+        }
+
+        .footer h1 span{
+            color:#64B496
+        }
+
+        .footer p{
+            font-family: inter;
+            font-size: 14px;
+            color:#BBB;
+            text-align: center;
+            margin: 0 0 30px 0;
+        }
+
+        .footer p span{
+            margin: 0 10px 0 10px;
+            
+        }
+
+        .footer .p{
+            width:770px;
+            margin: 10px auto;
+            line-height: 25px;
+
+        }
+
+        .footer{
+            width: 100%;
+            background-color: #17181C;
+            padding:80px 0 80px 0;
+        }
+
+
+/* ===============================================
+            footer part end
+=========================================== */
+
+
+/* ============================================
+        conclution part start
+================================== */
+
+
+        .conclution p{
+            text-align: center;
+            font-family: inter;
+            color:#FFF;
+            font-size: 14px;
+            padding:15px;
+        }
+
+        .conclution{
+            width: 100%;
+            background-color: #202124;
+        }
+
+
+/* ============================================
+        conclution part end
+================================== */

@@ -1,0 +1,52 @@
+
+.content{
+    width:540px;
+    height:350px;
+    position: relative;
+    background-color: rgb(185, 245, 225);
+    overflow: hidden;
+}
+
+.i1{
+    width:350px;
+    transition: 10s;
+}
+
+.i2{
+    width: 200px;
+    position: absolute;
+    top:300px;
+    transition: 10s;
+}
+
+.i3{
+    width: 250px;
+    position: absolute;
+    top:300px;
+    left:100px;
+    transition: 10s;
+}
+
+.i4{
+    width: 100px;
+    position: absolute;
+    top:350px;
+    left:200px;
+    transition: 10s;
+}
+
+.content:hover .i1{
+    transform: translateY(-800px);
+}
+
+.content:hover .i2{
+    transform: translateY(-800px);
+}
+
+.content:hover .i3{
+    transform: translateY(-800px);
+}
+
+.content:hover .i4{
+    transform: translateY(-800px);
+}
